@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import data from './data';
 import List from './List';
-import './index.css'
-function App() {
+import './BirthdayReminders.css';
+function BirthdayReminders() {
   const [people, setPeople] = useState(data);
   return (
     <main>
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default BirthdayReminders;
