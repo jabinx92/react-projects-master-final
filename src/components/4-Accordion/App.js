@@ -6,7 +6,7 @@ import './index.css';
 function App() {
   const [questions, setQuestions] = useState(data);
   return (
-    <main>
+    <main className="main1">
       <div className='container2'>
         <h3>questions and answers about login</h3>
         <section className='info'>
