@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import TourProject from './components/2-Tours/TourProject'
 import Reviews from './components/3-Reviews/App'
 import Accordion from './components/4-Accordion/App'
+import Menu from './components/5-Menu/App'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
     <TourProject />
     <Reviews />
     <Accordion />
+    <Menu />
   </React.StrictMode>,
   document.getElementById('root')
 );
