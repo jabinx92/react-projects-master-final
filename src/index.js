@@ -4,12 +4,14 @@ import BirthdayReminders from './components/1-BirthdayReminders/BirthdayReminder
 import reportWebVitals from './reportWebVitals';
 import TourProject from './components/2-Tours/TourProject'
 import Reviews from './components/3-Reviews/App'
+import Accordion from './components/4-Accordion/App'
 
 ReactDOM.render(
   <React.StrictMode>
     <BirthdayReminders />
     <TourProject />
     <Reviews />
+    <Accordion />
   </React.StrictMode>,
   document.getElementById('root')
 );

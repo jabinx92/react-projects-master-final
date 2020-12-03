@@ -35,7 +35,7 @@ const Review = () => {
 
   return (
     <article className='review'>
-      <div className='img-container'>
+      <div className='img-container1'>
         <img src={image} alt={name} className='person-img' />
         <span className='quote-icon'>
           <FaQuoteRight />
@@ -44,7 +44,7 @@ const Review = () => {
       <h4 className='author'>{name}</h4>
       <p className='job'>{job}</p>
       <p className='info'>{text}</p>
-      <div className='button-container'>
+      <div className='button-container1'>
         <button className='prev-btn' onClick={prevPerson}>
           <FaChevronLeft />
         </button>

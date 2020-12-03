@@ -5,7 +5,7 @@ import './index.css';
 function App() {
   return (
     <main>
-      <section className='container'>
+      <section className='container1'>
         <div className='title'>
           <h2>our reviews</h2>
           <div className='underline'></div>
