@@ -143,7 +143,7 @@ Questions
 ===============
 */
 
-.main {
+main {
   min-height: 100vh;
   /* using flex because of better browser support */
   display: flex;
@@ -195,7 +195,7 @@ Questions
 .question header h4 {
   margin-bottom: 0;
 }
-.btn {
+.btn1 {
   background: transparent;
   border-color: transparent;
   width: 2rem;

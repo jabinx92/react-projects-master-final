@@ -6,6 +6,7 @@ import TourProject from './components/2-Tours/TourProject'
 import Reviews from './components/3-Reviews/App'
 import Accordion from './components/4-Accordion/App'
 import Menu from './components/5-Menu/App'
+import Tabs from './components/6-Tabs/App'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Reviews />
     <Accordion />
     <Menu />
+    <Tabs />
   </React.StrictMode>,
   document.getElementById('root')
 );
