@@ -17,7 +17,7 @@ ReactDOM.render(
     <Accordion />
     <Menu />
     <Tabs />
-    <Slider />
+    {/* <Slider /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
