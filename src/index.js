@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import BirthdayReminders from './components/1-BirthdayReminders/BirthdayReminders';
 import reportWebVitals from './reportWebVitals';
-import TourProject from './components/2-Tours/TourProject'
-import Reviews from './components/3-Reviews/App'
-import Accordion from './components/4-Accordion/App'
-import Menu from './components/5-Menu/App'
-import Tabs from './components/6-Tabs/App'
-import Slider from './components/7-Slider/App'
+import TourProject from './components/2-Tours/TourProject';
+import Reviews from './components/3-Reviews/App';
+import Accordion from './components/4-Accordion/App';
+import Menu from './components/5-Menu/App';
+import Tabs from './components/6-Tabs/App';
+import Slider from './components/7-Slider/App';
 
 ReactDOM.render(
   <React.StrictMode>
