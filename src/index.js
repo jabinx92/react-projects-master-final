@@ -8,6 +8,7 @@ import Accordion from './components/4-Accordion/App';
 import Menu from './components/5-Menu/App';
 import Tabs from './components/6-Tabs/App';
 import Slider from './components/7-Slider/App';
+import LoremIpsum from './components/8-LoremIpsum/App'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Menu />
     <Tabs />
     <Slider />
+    <LoremIpsum />
   </React.StrictMode>,
   document.getElementById('root')
 );
