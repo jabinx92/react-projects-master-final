@@ -27,7 +27,7 @@ function App() {
   }
   const { company, dates, duties, title } = jobs[value];
   return (
-    <section className="section">
+    <section className="section1">
       <div className="title">
         <h2>experience</h2>
         <div className="underline"></div>
