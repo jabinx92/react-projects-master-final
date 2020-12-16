@@ -6,6 +6,11 @@ Color Generator
 ===============
 */
 
+.contain {
+  padding-top: 200px;
+  padding-bottom: 200px
+}
+
 .container4 {
   text-align: center;
   display: flex;
@@ -25,7 +30,7 @@ input {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
-.btn2 {
+.btn3 {
   background: hsl(205, 78%, 60%);
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
@@ -33,7 +38,7 @@ input {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
   text-transform: capitalize;
-  color: var(--clr-white);
+  color: #fff;
   cursor: pointer;
 }
 @media screen and (max-width: 576px) {
@@ -41,7 +46,7 @@ input {
     font-size: 1rem;
   }
   input,
-  .btn {
+  .btn3 {
     font-size: 0.85rem;
   }
 }

@@ -23,6 +23,8 @@ function App() {
 
   return (
     <>
+    <div className="contain">
+
       <section className='container4'>
         <h3>color generator</h3>
         <form onSubmit={handleSubmit}>
@@ -32,8 +34,8 @@ function App() {
             onChange={(e) => setColor(e.target.value)}
             placeholder='#f15025'
             className={`${error ? 'error' : null}`}
-          />
-          <button className='btn2' type='submit'>
+            />
+          <button className='btn3' type='submit'>
             submit
           </button>
         </form>
@@ -42,14 +44,15 @@ function App() {
         {list.map((color, index) => {
           return (
             <SingleColor
-              key={index}
-              {...color}
-              index={index}
-              hexColor={color.hex}
+            key={index}
+            {...color}
+            index={index}
+            hexColor={color.hex}
             />
-          )
-        })}
+            )
+          })}
       </section>
+      </div>
     </>
   )
 }
