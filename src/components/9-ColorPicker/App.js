@@ -50,7 +50,7 @@ function App() {
             hexColor={color.hex}
             />
             )
-          })}
+        })}
       </section>
       </div>
     </>
