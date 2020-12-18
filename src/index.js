@@ -10,6 +10,7 @@ import Tabs from './components/6-Tabs/App';
 import Slider from './components/7-Slider/App';
 import LoremIpsum from './components/8-LoremIpsum/App';
 import ColorPicker from './components/9-ColorPicker/App';
+import GroceryBud from './components/10-GroceryBud/App'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
     <Slider />
     <LoremIpsum />
     <ColorPicker />
+    <GroceryBud />
   </React.StrictMode>,
   document.getElementById('root')
 );
