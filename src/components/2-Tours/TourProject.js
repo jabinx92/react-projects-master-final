@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Loading from './Loading';
 import Tours from './Tours';
+import TourData from './tourData'  //from https://course-api.com/react-tours-project
 import './index.css';
-const url = 'https://course-api.netlify.app/api/react-tours-project';
+
+// const url = 'https://course-api.netlify.app/api/react-tours-project'; sometimes the url API is down, so use this, so use './tourData'
 
 function TourProject() {
   const [loading, setLoading] = useState(true);
@@ -15,15 +17,17 @@ function TourProject() {
 
   const fetchTours = async () => {
     setLoading(true);
-    try {
-      const response = await fetch(url);
-      const tours = await response.json();
-      setLoading(false);
-      setTours(tours);
-    } catch (error) {
-      setLoading(false);
-      console.log(error);
-    }
+    setLoading(false);
+    setTours(TourData);
+    // try {
+    //   const response = await fetch(url);
+    //   const tours = await response.json();
+    //   setLoading(false);
+    //   setTours(tours);
+    // } catch (error) {
+    //   setLoading(false);
+    //   console.log(error);
+    // }
   };
   useEffect(() => {
     fetchTours();

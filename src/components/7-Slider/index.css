@@ -1,6 +1,6 @@
-  .section1 {
+  /* .section2 {
     padding: 200px;
-  }
+  } */
 
   .title {
     text-align: center;
@@ -98,6 +98,7 @@
       font-size: 1.5rem;
     }
   }
+
   article.current {
     position: absolute;
     top: 0;

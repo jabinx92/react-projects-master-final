@@ -29,7 +29,7 @@ function App() {
   }, [index]);
 
   return (
-    <section className='section1'>
+    <section>
       <div className='title'>
         <h2>
           <span>/</span>reviews

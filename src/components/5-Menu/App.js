@@ -21,7 +21,7 @@ function App() {
   return (
     <main>
       <section className="menu section">
-        <div className="title">
+        <div className="title2">
           <h2>our menu</h2>
           <div className="underline1"></div>
         </div>
