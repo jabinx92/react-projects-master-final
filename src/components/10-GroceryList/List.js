@@ -8,7 +8,7 @@ const List = ({ items, removeItem, editItem }) => {
         return (
           <article className='grocery-item' key={id}>
             <p className='title'>{title}</p>
-            <div className='btn-container'>
+            <div>
               <button
                 type='button'
                 className='edit-btn'

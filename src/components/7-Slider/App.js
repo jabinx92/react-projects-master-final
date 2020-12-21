@@ -5,12 +5,11 @@ import data from './data';
 import './index.css';
 
 function App() {
-  const [people, setPeople] = useState(data);
+  const [people] = useState(data);
   const [index, setIndex] = useState(0);
  
 
   useEffect(() => {
-    console.log(people)
     const lastIndex = people.length - 1;
     if (index < 0) {
       setIndex(lastIndex);

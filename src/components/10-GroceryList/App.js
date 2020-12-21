@@ -65,11 +65,13 @@ function App() {
     localStorage.setItem('list', JSON.stringify(list));
   }, [list]);
   return (
-    <section className='section-center1'>
+  <div className="contain">
+
+    <section className='section-center2'>
       <form className='grocery-form' onSubmit={handleSubmit}>
         {alert.show && <Alert {...alert} removeAlert={showAlert} list={list} />}
 
-        <h3>grocery bud</h3>
+        <h3>grocery list</h3>
         <div className='form-control'>
           <input
             type='text'
@@ -77,7 +79,7 @@ function App() {
             placeholder='e.g. eggs'
             value={name}
             onChange={(e) => setName(e.target.value)}
-          />
+            />
           <button type='submit' className='submit-btn'>
             {isEditing ? 'edit' : 'submit'}
           </button>
@@ -92,6 +94,7 @@ function App() {
         </div>
       )}
     </section>
+  </div>
   );
 }
 

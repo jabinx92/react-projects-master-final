@@ -4,7 +4,7 @@ import SingleQuestion from './Question';
 import './index.css';
 
 function App() {
-  const [questions, setQuestions] = useState(data);
+  const [questions] = useState(data);
   return (
     <main >
       <div className='container3'>
