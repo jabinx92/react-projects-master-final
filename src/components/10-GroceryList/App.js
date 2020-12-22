@@ -65,7 +65,7 @@ function App() {
     localStorage.setItem('list', JSON.stringify(list));
   }, [list]);
   return (
-  <div className="contain">
+  <div style={{padding: '100px 0px 200px'}}>
 
     <section className='section-center2'>
       <form className='grocery-form' onSubmit={handleSubmit}>
