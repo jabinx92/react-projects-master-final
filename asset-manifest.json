@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-projects-master-final/static/css/main.4d9c4bfc.chunk.css",
-    "main.js": "/react-projects-master-final/static/js/main.0a81afc9.chunk.js",
-    "main.js.map": "/react-projects-master-final/static/js/main.0a81afc9.chunk.js.map",
+    "main.css": "/react-projects-master-final/static/css/main.924c54bb.chunk.css",
+    "main.js": "/react-projects-master-final/static/js/main.7a6243a3.chunk.js",
+    "main.js.map": "/react-projects-master-final/static/js/main.7a6243a3.chunk.js.map",
     "runtime-main.js": "/react-projects-master-final/static/js/runtime-main.c09889d0.js",
     "runtime-main.js.map": "/react-projects-master-final/static/js/runtime-main.c09889d0.js.map",
     "static/js/2.6c1b1ec9.chunk.js": "/react-projects-master-final/static/js/2.6c1b1ec9.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.860d9008.chunk.js": "/react-projects-master-final/static/js/3.860d9008.chunk.js",
     "static/js/3.860d9008.chunk.js.map": "/react-projects-master-final/static/js/3.860d9008.chunk.js.map",
     "index.html": "/react-projects-master-final/index.html",
-    "static/css/main.4d9c4bfc.chunk.css.map": "/react-projects-master-final/static/css/main.4d9c4bfc.chunk.css.map",
+    "static/css/main.924c54bb.chunk.css.map": "/react-projects-master-final/static/css/main.924c54bb.chunk.css.map",
     "static/js/2.6c1b1ec9.chunk.js.LICENSE.txt": "/react-projects-master-final/static/js/2.6c1b1ec9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c09889d0.js",
     "static/js/2.6c1b1ec9.chunk.js",
-    "static/css/main.4d9c4bfc.chunk.css",
-    "static/js/main.0a81afc9.chunk.js"
+    "static/css/main.924c54bb.chunk.css",
+    "static/js/main.7a6243a3.chunk.js"
   ]
 }
