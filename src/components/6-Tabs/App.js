@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaAngleDoubleRight } from 'react-icons/fa';
+import Tabs from './Tabs' //api link is sometimes down, so use this
 import './index.css';
+
 
 const url = 'https://course-api.netlify.app/api/react-tabs-project';
 function App() {
@@ -9,8 +11,9 @@ function App() {
   const [value, setValue] = useState(0);
 
   const fetchJobs = async () => {
-    const reponse = await fetch(url);
-    const newJobs = await reponse.json();
+    // const reponse = await fetch(url);
+    // const newJobs = await reponse.json();
+    const newJobs = Tabs
 
     setJobs(newJobs);
     setLoading(false);
@@ -29,10 +32,10 @@ function App() {
   }
   const { company, dates, duties, title } = jobs[value];
   return (
-    <section className="section1">
-      <div className="title">
+    <div style={{padding: '100px 40px 200px 40px'}}>
+      <div className="title2">
         <h2>experience</h2>
-        <div className="underline"></div>
+        <div className="underline2"></div>
       </div>
       <div className="jobs-center">
         {/* btn container */}
@@ -64,10 +67,8 @@ function App() {
           })}
         </article>
       </div>
-      <button type="button" className="btn">
-        more info
-      </button>
-    </section>
+      
+    </div>
   );
 }
 
