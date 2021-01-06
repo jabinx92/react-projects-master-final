@@ -100,4 +100,4 @@ function App() {
 
 export default App;
 
-//leetcode day 5?
+//leetcode 6
